@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "/ui/button";
 import { Users, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
