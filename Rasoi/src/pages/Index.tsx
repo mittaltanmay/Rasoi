@@ -1,9 +1,10 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
-import HowItWorks from "@/components/HowItWorks";
-import TrustSystem from "@/components/TrustSystem";
-import Footer from "@/components/Footer";
+// import Header from "/components/Header";
+import Header from "../component/Header";
+import Hero from "../component/Hero";
+import Features from "../component/Features";
+import HowItWorks from "../component/HowItWorks";
+import TrustSystem from "../component/TrustSystem";
+import Footer from "../component/Footer";
 
 const Index = () => {
   return (

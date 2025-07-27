@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import { ArrowRight, MapPin, Star, Shield } from "lucide-react";
-import heroImage from "@/assets/hero-marketplace.jpg";
+// import heroImage from "./assets/hero-marketplace.jpg";
 
-const Hero = () => {
+export default function Hero(){
   return (
     <section className="relative min-h-[90vh] flex items-center bg-gradient-subtle">
       <div className="container mx-auto px-4 lg:px-6 py-20">
@@ -53,11 +53,11 @@ const Hero = () => {
 
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
-              <img 
+              {/* <img 
                 src={heroImage} 
                 alt="Street food vendors and suppliers marketplace" 
                 className="w-full h-auto object-cover"
-              />
+              /> */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-card border">
@@ -89,4 +89,3 @@ const Hero = () => {
   );
 };
 
-export default Hero;

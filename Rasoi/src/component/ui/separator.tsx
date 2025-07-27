@@ -24,3 +24,4 @@ const Separator = React.forwardRef<
     />
   )
 )
+export {Separator}

@@ -1,7 +1,7 @@
-import { Button } from "/ui/button";
+import { Button } from "./ui/button";
 import { Users, Mail, Phone, MapPin } from "lucide-react";
 
-const Footer = () => {
+export default function Footer(){
   return (
     <footer className="bg-background border-t border-border">
       <div className="container mx-auto px-4 lg:px-6 py-12">
@@ -76,4 +76,3 @@ const Footer = () => {
   );
 };
 
-export default Footer;

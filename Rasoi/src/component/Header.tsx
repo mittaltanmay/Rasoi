@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button"
 import { Menu, Users, Truck } from "lucide-react";
 
-const Header = () => {
+export default function Header () {
   return (
     <header className="w-full bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4 lg:px-6 h-16 flex items-center justify-between">
@@ -42,4 +42,3 @@ const Header = () => {
   );
 };
 
-export default Header;
